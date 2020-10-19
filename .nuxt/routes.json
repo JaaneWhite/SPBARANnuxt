@@ -1,9 +1,16 @@
 [
   {
+    "name": "news",
+    "path": "/news",
+    "component": "D:\\\\Work\\\\Alt-soft\\\\SPBARANnuxt\\\\pages\\\\news.vue",
+    "chunkName": "pages/news",
+    "_name": "_795c52d4"
+  },
+  {
     "name": "index",
     "path": "/",
-    "component": "/Users/anastasia/Documents/a.shironosova/nuxttest/pages/index.vue",
+    "component": "D:\\\\Work\\\\Alt-soft\\\\SPBARANnuxt\\\\pages\\\\index.vue",
     "chunkName": "pages/index",
-    "_name": "_6cbe118f"
+    "_name": "_72ba48a1"
   }
 ]
