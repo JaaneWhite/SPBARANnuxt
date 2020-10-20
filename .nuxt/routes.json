@@ -3,14 +3,12 @@
     "name": "news",
     "path": "/news",
     "component": "D:\\\\Work\\\\Alt-soft\\\\SPBARANnuxt\\\\pages\\\\news.vue",
-    "chunkName": "pages/news",
-    "_name": "_795c52d4"
+    "chunkName": "pages/news"
   },
   {
     "name": "index",
     "path": "/",
     "component": "D:\\\\Work\\\\Alt-soft\\\\SPBARANnuxt\\\\pages\\\\index.vue",
-    "chunkName": "pages/index",
-    "_name": "_72ba48a1"
+    "chunkName": "pages/index"
   }
 ]

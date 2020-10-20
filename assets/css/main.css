@@ -113,7 +113,7 @@ header {
     height: 15px;
     width: 15px;
 }
-.btn-secondary {
+.nav-item {
     color: #1a475a;
     background-color: transparent;
     font-size: 14px;
@@ -121,34 +121,41 @@ header {
     border: none;
     border-radius: 0px;
     height: 50px;
+}
+.nav-link {
     padding-right: 30px;
     padding-left: 30px;
-
+    padding-top: 15px;
+    color: #1A475A;
+    vertical-align: center;
+    height: 100%;
 }
-.btn-secondary:not(:disabled):not(.disabled):active, .btn-secondary:not(:disabled):not(.disabled).active, .show > .btn-secondary.dropdown-toggle {
+
+.nav-item:hover {
+    color: white;
+    background-color: #7CB6AA;
+    border: none;
+    border-radius: 0px;
+}
+.nav-link:hover {
+    color: white;
+}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
     color: #fff;
     background-color: #7CB6AA;
-    border:none;
-}
-.btn-secondary:hover {
-    color: white;
-    background-color: #7CB6AA;
-    border: none;
+    width: 100%;
+    height: 100%;
     border-radius: 0px;
 }
-.btn-secondary:focus {
-    color: white;
-    background-color: #7CB6AA;
-    border: none;
-    border-radius: 0px;
-    box-shadow: none;
-}
+
+
 .dropdown-item {
     background-color: #7CB6AA;
     color: white;
     font-size: 14px;
     padding-top: 15px;
     padding-bottom: 15px;
+    padding-right: 15px;
     text-align: left;
 }
 .dropdown-item:hover {
