@@ -3,36 +3,35 @@
        <div class="content-wrap">
        <div class="content-row">
          <div class="content-main">
-
-           <div class="main-content-block">
-             <div class="actual-title">Актуальное</div>
-             <div class="news-rows">
-               <div class="news-row">
+           <b-container class="main-content-block">
+             <b-row class="actual-title">Актуальное</b-row>
+             <b-container class="news-rows">
+               <b-row class="news-row">
                <news-block />
                <news-block />
-               </div>
-               <div class="news-row">
+               </b-row>
+               <b-row class="news-row">
                <news-block />
                <news-block />
-               </div>
-              </div>
-             </div>
+               </b-row>
+             </b-container>
+             </b-container>
            </div>
 
 
          <div class="contact-row">
-           <div class="contact-row-inner">
-            <div class="address-title">Адрес архива</div>
-            <div class="info-row">
-            <div class="address-block">
+           <b-container class="contact-row-inner">
+            <b-row class="address-title">Адрес архива</b-row>
+            <b-row class="info-row">
+            <b-col md="auto" class="address-block">
               <div class="contact-block-logo"><b-img src="~/assets/SVG/map.svg" class="contact-logo"></b-img></div>
               <div>
                 <div class="contact-block-title">ГДЕ МЫ НАХОДИМСЯ</div>
                 <div class="contact-block-text">199034, Санкт-Петербург,</div>
                 <div class="contact-block-text"><b>Университетская наб., д. 1</b></div>
               </div>
-            </div>
-            <div class="transport-block"></div>
+            </b-col>
+            <b-col md="auto" class="transport-block">
              <div class="contact-block-logo"><b-img src="~/assets/SVG/bus.svg" class="contact-logo"></b-img></div>
              <div>
                <div class="contact-block-title">КАК ДО НАС ДОБРАТЬСЯ</div>
@@ -42,7 +41,8 @@
                  Василеостровская до остановки Университетская набережная (Кунсткамера)<br>
                  или Биржевая площадь.</div>
              </div>
-            <div class="phone-block">
+            </b-col>
+            <b-col md="auto" class="phone-block">
               <div class="contact-block-logo"><b-img src="~/assets/SVG/contacts.svg" class="contact-logo"></b-img></div>
               <div>
                 <div class="contact-block-title">СВЯЖИТЕСЬ С НАМИ</div>
@@ -51,9 +51,9 @@
                 <div class="contact-block-email"><b>archive@spbrc.nw.ru</b></div>
                 <div class="read-more-link"><a href=#>Все контакты <b-img src="~/assets/SVG/arrow left.svg" class="img-arrow"></b-img></a></div>
               </div>
-            </div>
-           </div>
-           </div>
+            </b-col>
+           </b-row>
+           </b-container>
 
 
          </div>
@@ -70,7 +70,7 @@
 
 import NewsBlock from '@/Components/newsBlock'
 export default {
-  name: 'index',
+  name: 'home',
   components: {NewsBlock}
 };
 

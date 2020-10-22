@@ -2,9 +2,9 @@
   <header>
     <div class="header-topbar">
       <div class="search-form">
-        <form action="" method="get">
-          <input id="search-input" placeholder="Поиск" type="search">
-        </form>
+        <b-form action="" method="get">
+          <b-form-input id="search-input" placeholder="Поиск" type="search"></b-form-input>
+        </b-form>
       </div>
       <div class="lang-switcher">
         <span class="locale"><a href="/?lc=ru">РУ</a></span>

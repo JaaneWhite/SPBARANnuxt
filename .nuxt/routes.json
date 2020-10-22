@@ -2,13 +2,13 @@
   {
     "name": "news",
     "path": "/news",
-    "component": "D:\\\\Work\\\\Alt-soft\\\\SPBARANnuxt\\\\pages\\\\news.vue",
+    "component": "/Users/anastasia/IdeaProjects/SPBARANnuxt/pages/news.vue",
     "chunkName": "pages/news"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "D:\\\\Work\\\\Alt-soft\\\\SPBARANnuxt\\\\pages\\\\index.vue",
+    "component": "/Users/anastasia/IdeaProjects/SPBARANnuxt/pages/index.vue",
     "chunkName": "pages/index"
   }
 ]

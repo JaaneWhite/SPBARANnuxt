@@ -19,7 +19,27 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b72bf155-0840-41eb-81d8-6b08459602aa" name="Default Changelist" comment="Меню вынесено в отдельный компонент и переделано как &lt;nav&gt;" />
+    <list default="true" id="75899b17-940d-4415-8aae-6d14808e9d1b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.nuxt/bootstrap-vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.nuxt/components/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.nuxt/components/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.nuxt/vetur/tags.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/breadcrumbs.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/pagination.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/router.scrollBehavior.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/router.scrollBehavior.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/routes.json" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/routes.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/headerComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/headerComponent.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/mainMenu.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/mainMenu.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/news.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/news.vue" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,26 +54,30 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
-  <component name="ProjectId" id="1iwvL0y6aGMh4n1f37Y29NEGRzK" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1j9uF52Poing56XgiBmJGvQXwwF" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
-    <option name="showMembers" value="true" />
-    <option name="showVisibilityIcons" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.19.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="12.12.69" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
     <property name="vuejs.nuxt.types-notification-shown" value="true" />
   </component>
@@ -68,7 +92,7 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="npm run dev" type="js.build_tools.npm">
+    <configuration name="npn run dev" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
@@ -82,36 +106,16 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b72bf155-0840-41eb-81d8-6b08459602aa" name="Default Changelist" comment="" />
-      <created>1602831436309</created>
+      <changelist id="75899b17-940d-4415-8aae-6d14808e9d1b" name="Default Changelist" comment="" />
+      <created>1603228525147</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1602831436309</updated>
-      <workItem from="1602831443810" duration="488000" />
-      <workItem from="1602832036849" duration="85000" />
-      <workItem from="1602832150569" duration="12405000" />
-      <workItem from="1602859661271" duration="10195000" />
-      <workItem from="1603090556948" duration="26785000" />
-      <workItem from="1603177585859" duration="6634000" />
-      <workItem from="1603365252373" duration="295000" />
-      <workItem from="1603365838144" duration="55000" />
-      <workItem from="1603374156491" duration="244000" />
+      <updated>1603228525147</updated>
+      <workItem from="1603228526628" duration="1773000" />
+      <workItem from="1603266551397" duration="710000" />
+      <workItem from="1603267442797" duration="653000" />
+      <workItem from="1603268182851" duration="7887000" />
     </task>
-    <task id="LOCAL-00001" summary="Доделана верстка главной страницы">
-      <created>1603119414932</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1603119414932</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Меню вынесено в отдельный компонент и переделано как &lt;nav&gt;">
-      <created>1603186390877</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1603186390877</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,50 +134,36 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Доделана верстка главной страницы" />
-    <MESSAGE value="Меню вынесено в отдельный компонент и переделано как &lt;nav&gt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Меню вынесено в отдельный компонент и переделано как &lt;nav&gt;" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602860185678">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="184" y="83" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603228725155">
+      <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602860185678" />
-    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1603365276239">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="184" y="83" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.797@0.23.1440.797" timestamp="1603228725155" />
+    <state width="1398" height="204" key="GridCell.Tab.0.bottom" timestamp="1603286769623">
+      <screen x="0" y="23" width="1440" height="807" />
     </state>
-    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603365276239" />
-    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1602832585423">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1603266496024" />
+    <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.807@0.23.1440.807" timestamp="1603286769623" />
+    <state width="1398" height="204" key="GridCell.Tab.0.center" timestamp="1603286769622">
+      <screen x="0" y="23" width="1440" height="807" />
     </state>
-    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602832585423" />
-    <state width="938" height="282" key="GridCell.Tab.0.bottom" timestamp="1603186422171">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1603266496022" />
+    <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.807@0.23.1440.807" timestamp="1603286769622" />
+    <state width="1398" height="204" key="GridCell.Tab.0.left" timestamp="1603286769621">
+      <screen x="0" y="23" width="1440" height="807" />
     </state>
-    <state width="938" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603186422171" />
-    <state width="938" height="282" key="GridCell.Tab.0.center" timestamp="1603186422171">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1603266496021" />
+    <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.807@0.23.1440.807" timestamp="1603286769621" />
+    <state width="1398" height="204" key="GridCell.Tab.0.right" timestamp="1603286769623">
+      <screen x="0" y="23" width="1440" height="807" />
     </state>
-    <state width="938" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603186422171" />
-    <state width="938" height="282" key="GridCell.Tab.0.left" timestamp="1603186422170">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1603266496023" />
+    <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.807@0.23.1440.807" timestamp="1603286769623" />
+    <state x="0" y="23" width="1440" height="797" key="SettingsEditor" timestamp="1603268151665">
+      <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="938" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603186422170" />
-    <state width="938" height="282" key="GridCell.Tab.0.right" timestamp="1603186422171">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="938" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603186422171" />
-    <state x="440" y="94" key="SettingsEditor" timestamp="1602832202711">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602832202711" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603186400064">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603186400064" />
-    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603374378691">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603374378691" />
+    <state x="0" y="23" width="1440" height="797" key="SettingsEditor/0.23.1440.797@0.23.1440.797" timestamp="1603268151665" />
   </component>
 </project>

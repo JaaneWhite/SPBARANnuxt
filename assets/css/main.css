@@ -15,6 +15,11 @@ a:hover {
     text-decoration: none;
 }
 
+@media (min-width: 1500px) {
+    .container {
+        max-width: 1460px;
+    }
+}
 
 header {
     display: block;
@@ -183,7 +188,6 @@ header {
 .content-row {
     background-color: #f1f0dd;
     margin: auto;
-    margin-top: 50px;
 }
 
 .main-content-block {
@@ -198,6 +202,7 @@ header {
     width: auto;
     color: #1A475A;
     margin-bottom: 20px;
+    padding-left: 15px;
 
 }
 .news-rows {
@@ -267,7 +272,6 @@ header {
 }
 .info-row {
     display: flex;
-    margin: auto;
 }
 .address-block {
     display: flex;
@@ -283,6 +287,7 @@ header {
     font-weight: bold;
     width: auto;
     padding-bottom: 40px;
+    padding-left: 30px;
 }
 .contact-logo {
     height: 60px;
@@ -316,11 +321,18 @@ header {
     text-decoration: underline;
     font-size: 14px;
     font-weight: bold;
+    color: #aad1c9;
 }
+.read-more-link a:hover {
+    color: #7CB6AA;
+}
+
 .read-more-link {
     text-align: right;
     width: 100%;
-
+}
+.phone-block .read-more-link {
+    text-align: left;
 }
 .img-arrow {
     height: 10px;
@@ -342,7 +354,44 @@ footer {
     font-size: 14px;
     line-height: 1.2;
 }
+.breadcrumb {
+    width: 100%;
+    background-color: transparent;
+    color: #1A475A;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.breadcrumb a {
+    color: #1A475A;
+    text-decoration: underline;
+}
+.news-bottom {
+    margin-top: 40px;
 
+}
+.news-archive-link, .news-archive-link:hover {
+    color: #1A475A;
+    text-decoration: underline;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+.page-item.disabled .page-link, .page-link, .page-item:hover .page-link {
+    color: black;
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 16px;
+    font-family: Roboto;
+}
+.page-item.active .page-link {
+    color: white;
+    background-color: #aad1c9;
+    border: none;
+    font-size: 16px;
+    font-family: Roboto;
+}
 
 
 
