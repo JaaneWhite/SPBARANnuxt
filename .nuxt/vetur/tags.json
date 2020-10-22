@@ -1,10 +1,4 @@
 {
-  "Breadcrumbs": {
-    "description": "Auto imported from components/breadcrumbs.vue"
-  },
-  "LazyBreadcrumbs": {
-    "description": "Auto imported from components/breadcrumbs.vue"
-  },
   "FooterComponent": {
     "description": "Auto imported from components/footerComponent.vue"
   },

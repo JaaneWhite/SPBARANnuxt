@@ -1,14 +1,30 @@
 [
   {
+    "name": "about",
+    "path": "/about",
+    "component": "D:\\\\Work\\\\Alt-soft\\\\SPBARANnuxt\\\\pages\\\\about.vue",
+    "chunkName": "pages/about",
+    "_name": "_53026ddc"
+  },
+  {
     "name": "news",
     "path": "/news",
-    "component": "/Users/anastasia/IdeaProjects/SPBARANnuxt/pages/news.vue",
-    "chunkName": "pages/news"
+    "component": "D:\\\\Work\\\\Alt-soft\\\\SPBARANnuxt\\\\pages\\\\news.vue",
+    "chunkName": "pages/news",
+    "_name": "_795c52d4"
+  },
+  {
+    "name": "publications",
+    "path": "/publications",
+    "component": "D:\\\\Work\\\\Alt-soft\\\\SPBARANnuxt\\\\pages\\\\publications.vue",
+    "chunkName": "pages/publications",
+    "_name": "_0636d8c8"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "/Users/anastasia/IdeaProjects/SPBARANnuxt/pages/index.vue",
-    "chunkName": "pages/index"
+    "component": "D:\\\\Work\\\\Alt-soft\\\\SPBARANnuxt\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_72ba48a1"
   }
 ]

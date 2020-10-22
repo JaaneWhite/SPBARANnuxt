@@ -188,6 +188,7 @@ header {
 .content-row {
     background-color: #f1f0dd;
     margin: auto;
+    min-height: 900px;
 }
 
 .main-content-block {
@@ -354,16 +355,21 @@ footer {
     font-size: 14px;
     line-height: 1.2;
 }
-.breadcrumb {
+.breadcrumbs {
     width: 100%;
     background-color: transparent;
     color: #1A475A;
     padding-bottom: 0px;
     margin-bottom: 0px;
+    padding-left: 30px;
 }
-.breadcrumb a {
+.breadcrumbs a {
     color: #1A475A;
     text-decoration: underline;
+}
+.breadcrumb {
+    background-color: transparent;
+    margin-bottom: 0px;
 }
 .news-bottom {
     margin-top: 40px;
@@ -392,6 +398,37 @@ footer {
     font-size: 16px;
     font-family: Roboto;
 }
+.about-attention {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 2;
+    text-align: left;
+    color: #1a475a;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.about-text {
+    font-size: 16px;
+    line-height: 2;
+    text-align: left;
+    color: #1a475a;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.publ-group-row {
+    min-width: 500px;
+    padding-left: 15px;
+    padding-right: 30px;
+    display: block;
+}
+.publ-group-col {
+    padding-left: 0px;
+    width: 100%;
 
-
+    height: 110px;
+}
+.publ-col {
+    width: 100%;
+    height: 110px;
+}
 

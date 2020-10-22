@@ -1,7 +1,9 @@
 <template>
   <div class="content-wrap">
     <div class="content-row">
-      <breadcrumbs />
+      <b-row class="breadcrumbs">
+        <b-breadcrumb :items="items"></b-breadcrumb>
+      </b-row>
       <b-container class="main-content-block">
         <b-row class="actual-title">Новости</b-row>
         <b-container class="news-rows">
@@ -41,12 +43,25 @@
 </template>
 
 <script>
-import breadcrumbs from "~/components/breadcrumbs";
 import pagination from "~/components/pagination";
 
 export default {
   name: "news",
-  components: {breadcrumbs, pagination}
+  components: {pagination},
+  data() {
+    return {
+      items: [
+        {
+          text: 'Главная',
+          to: '/'
+        },
+        {
+          text: 'Новости',
+          active: true
+        }
+      ]
+    }
+  }
 }
 
 </script>
