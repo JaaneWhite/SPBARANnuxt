@@ -1,0 +1,26 @@
+{
+  "FooterComponent": {
+    "description": "Auto imported from components/footerComponent.vue"
+  },
+  "LazyFooterComponent": {
+    "description": "Auto imported from components/footerComponent.vue"
+  },
+  "HeaderComponent": {
+    "description": "Auto imported from components/headerComponent.vue"
+  },
+  "LazyHeaderComponent": {
+    "description": "Auto imported from components/headerComponent.vue"
+  },
+  "MainMenu": {
+    "description": "Auto imported from components/mainMenu.vue"
+  },
+  "LazyMainMenu": {
+    "description": "Auto imported from components/mainMenu.vue"
+  },
+  "NewsBlock": {
+    "description": "Auto imported from components/newsBlock.vue"
+  },
+  "LazyNewsBlock": {
+    "description": "Auto imported from components/newsBlock.vue"
+  }
+}
