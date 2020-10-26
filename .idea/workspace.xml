@@ -19,27 +19,27 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75899b17-940d-4415-8aae-6d14808e9d1b" name="Default Changelist" comment="+ страница &quot;Об архиве&quot;&#10;Начала делать страницу &quot;Публикации&quot;">
-      <change afterPath="$PROJECT_DIR$/assets/img/arrow down d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/arrow up d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/map.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/tire.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/exbBlock.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/AddressBlock.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/PhoneBlock.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/TransportBlock.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/contacts.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/exb.vue" afterDir="false" />
+    <list default="true" id="75899b17-940d-4415-8aae-6d14808e9d1b" name="Default Changelist" comment="+ страница &quot;Публикации&quot;&#10;+ страница &quot;Контакты&quot;">
+      <change afterPath="$PROJECT_DIR$/assets/img/arrow down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/arrow up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/tolstoy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/activities.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/exhibition.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/services.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.nuxt/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/components/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.nuxt/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/router.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.nuxt/routes.json" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/routes.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.nuxt/vetur/tags.json" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/vetur/tags.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/exbBlock.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/exbBlock.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/mainMenu.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/mainMenu.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/AddressBlock.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/AddressBlock.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/PhoneBlock.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/PhoneBlock.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/TransportBlock.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/TransportBlock.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/contacts.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contacts.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/exb.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/exb.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/news.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/news.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/publications.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/publications.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,6 +56,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="ProjectId" id="1j9uF52Poing56XgiBmJGvQXwwF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -86,11 +89,25 @@
     <property name="vuejs.nuxt.types-notification-shown" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Work\Alt-soft\SPBARANnuxt\components" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Work\Alt-soft\SPBARANnuxt\assets\img" />
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -125,6 +142,7 @@
       <workItem from="1603267442797" duration="653000" />
       <workItem from="1603268182851" duration="7887000" />
       <workItem from="1603437847760" duration="24421000" />
+      <workItem from="1603697419439" duration="15158000" />
     </task>
     <task id="LOCAL-00001" summary="+ страница &quot;Об архиве&quot;&#10;Начала делать страницу &quot;Публикации&quot;">
       <created>1603379444886</created>
@@ -133,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603379444886</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="+ страница &quot;Публикации&quot;&#10;+ страница &quot;Контакты&quot;">
+      <created>1603697550661</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603697550661</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,44 +179,49 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="+ страница &quot;Об архиве&quot;&#10;Начала делать страницу &quot;Публикации&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="+ страница &quot;Об архиве&quot;&#10;Начала делать страницу &quot;Публикации&quot;" />
+    <MESSAGE value="+ страница &quot;Публикации&quot;&#10;+ страница &quot;Контакты&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="+ страница &quot;Публикации&quot;&#10;+ страница &quot;Контакты&quot;" />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="83" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603228725155">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="184" y="83" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.797@0.23.1440.797" timestamp="1603228725155" />
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603375551640">
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603710525420">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603375551640" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1603487879926">
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603710525420" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1603712911209">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603487879926" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603712911209" />
     <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1603266496024" />
     <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.807@0.23.1440.807" timestamp="1603286769623" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1603487879926">
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1603712911209">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603487879926" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603712911209" />
     <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1603266496022" />
     <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.807@0.23.1440.807" timestamp="1603286769622" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1603487879926">
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1603712911209">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603487879926" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603712911209" />
     <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1603266496021" />
     <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.807@0.23.1440.807" timestamp="1603286769621" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1603487879926">
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1603712911209">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603487879926" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603712911209" />
     <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1603266496023" />
     <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.807@0.23.1440.807" timestamp="1603286769623" />
     <state x="0" y="23" width="1440" height="797" key="SettingsEditor" timestamp="1603268151665">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="0" y="23" width="1440" height="797" key="SettingsEditor/0.23.1440.797@0.23.1440.797" timestamp="1603268151665" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603697572715">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603697572715" />
   </component>
 </project>

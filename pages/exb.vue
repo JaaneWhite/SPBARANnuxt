@@ -53,7 +53,7 @@ export default {
           to: '/'
         },
         {
-          text: 'Выставки',
+          text: 'Выставочная деятельность',
           active: true
         }
       ]

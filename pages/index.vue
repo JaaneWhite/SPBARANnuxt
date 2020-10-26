@@ -42,9 +42,9 @@
 
 
 import NewsBlock from '@/Components/newsBlock'
-import AddressBlock from "@/pages/AddressBlock";
-import TransportBlock from "@/pages/TransportBlock";
-import PhoneBlock from "@/pages/PhoneBlock";
+import AddressBlock from "@/components/AddressBlock";
+import TransportBlock from "@/components/TransportBlock";
+import PhoneBlock from "@/components/PhoneBlock";
 
 export default {
   name: 'home',

@@ -9,7 +9,7 @@
         в семье выдающегося ученого, организатора науки и образования графа Ивана Ивановича Толстого и Людмилы Платоновны ...</div>
       <div class="exb-footer">
         <div class="exb-date">26.08.2020</div>
-        <div class="read-more-link"><a href=#>Смотреть выставку <b-img src="~/assets/SVG/arrow left.svg" class="img-arrow"></b-img></a></div>
+        <div class="read-more-link"><a href="exhibition">Смотреть выставку <b-img src="~/assets/SVG/arrow left.svg" class="img-arrow"></b-img></a></div>
       </div>
 
     </div>

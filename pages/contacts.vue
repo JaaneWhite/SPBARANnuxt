@@ -139,8 +139,8 @@
 </template>
 
 <script>
-import AddressBlock from "@/pages/AddressBlock";
-import TransportBlock from "@/pages/TransportBlock";
+import AddressBlock from "@/components/AddressBlock";
+import TransportBlock from "@/components/TransportBlock";
 export default {
   name: "contacts",
   components: {TransportBlock, AddressBlock},
