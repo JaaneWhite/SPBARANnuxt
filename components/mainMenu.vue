@@ -20,9 +20,9 @@
     <b-nav-item-dropdown id="dropdown-3" text="НАУЧНАЯ ДЕЯТЕЛЬНОСТЬ" class="menu-button-top">
       <b-dropdown-item href="publications">Публикации</b-dropdown-item>
     </b-nav-item-dropdown>
-    <b-nav-item class="menu-button-top">ВЫСТАВКИ</b-nav-item>
+    <b-nav-item href="exb" class="menu-button-top">ВЫСТАВКИ</b-nav-item>
     <b-nav-item class="menu-button-top">УСЛУГИ</b-nav-item>
-    <b-nav-item class="menu-button-top">КОНТАКТЫ</b-nav-item>
+    <b-nav-item href="contacts" class="menu-button-top">КОНТАКТЫ</b-nav-item>
   </b-nav>
 </template>
 

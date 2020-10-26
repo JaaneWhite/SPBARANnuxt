@@ -4,7 +4,7 @@
       <b-row class="breadcrumbs">
         <b-breadcrumb :items="items"></b-breadcrumb>
       </b-row>
-      <b-container class="main-content-block">
+      <row class="main-content-block">
         <b-row class="actual-title">Новости</b-row>
         <b-container class="news-rows">
           <b-row class="news-row">
@@ -36,7 +36,7 @@
 
 
 
-      </b-container>
+      </row>
 
     </div>
   </div>

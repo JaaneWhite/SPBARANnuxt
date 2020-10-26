@@ -1,4 +1,10 @@
 {
+  "ExbBlock": {
+    "description": "Auto imported from components/exbBlock.vue"
+  },
+  "LazyExbBlock": {
+    "description": "Auto imported from components/exbBlock.vue"
+  },
   "FooterComponent": {
     "description": "Auto imported from components/footerComponent.vue"
   },

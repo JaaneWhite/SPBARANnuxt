@@ -7,6 +7,27 @@
     "_name": "_53026ddc"
   },
   {
+    "name": "AddressBlock",
+    "path": "/AddressBlock",
+    "component": "D:\\\\Work\\\\Alt-soft\\\\SPBARANnuxt\\\\pages\\\\AddressBlock.vue",
+    "chunkName": "pages/AddressBlock",
+    "_name": "_e92dbdcc"
+  },
+  {
+    "name": "contacts",
+    "path": "/contacts",
+    "component": "D:\\\\Work\\\\Alt-soft\\\\SPBARANnuxt\\\\pages\\\\contacts.vue",
+    "chunkName": "pages/contacts",
+    "_name": "_3877cbd4"
+  },
+  {
+    "name": "exb",
+    "path": "/exb",
+    "component": "D:\\\\Work\\\\Alt-soft\\\\SPBARANnuxt\\\\pages\\\\exb.vue",
+    "chunkName": "pages/exb",
+    "_name": "_3eb5e51e"
+  },
+  {
     "name": "news",
     "path": "/news",
     "component": "D:\\\\Work\\\\Alt-soft\\\\SPBARANnuxt\\\\pages\\\\news.vue",
@@ -14,11 +35,25 @@
     "_name": "_795c52d4"
   },
   {
+    "name": "PhoneBlock",
+    "path": "/PhoneBlock",
+    "component": "D:\\\\Work\\\\Alt-soft\\\\SPBARANnuxt\\\\pages\\\\PhoneBlock.vue",
+    "chunkName": "pages/PhoneBlock",
+    "_name": "_36657720"
+  },
+  {
     "name": "publications",
     "path": "/publications",
     "component": "D:\\\\Work\\\\Alt-soft\\\\SPBARANnuxt\\\\pages\\\\publications.vue",
     "chunkName": "pages/publications",
     "_name": "_0636d8c8"
+  },
+  {
+    "name": "TransportBlock",
+    "path": "/TransportBlock",
+    "component": "D:\\\\Work\\\\Alt-soft\\\\SPBARANnuxt\\\\pages\\\\TransportBlock.vue",
+    "chunkName": "pages/TransportBlock",
+    "_name": "_0ad03345"
   },
   {
     "name": "index",
