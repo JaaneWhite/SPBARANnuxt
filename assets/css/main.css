@@ -457,6 +457,7 @@ footer {
     color: #1a475a;
     padding-left: 25px;
     padding-right: 15px;
+    flex-direction: column;
 }
 .about-text, .activities-text {
     font-size: 16px;
@@ -719,4 +720,33 @@ footer {
 }
 .price-text-margin-bottom {
     margin-bottom: 50px;
+}
+.funds-search-row {
+    display: flex;
+}
+.funds-search-block {
+    margin: auto;
+    background-color: #f9f9ed;
+    border-bottom: solid #7CB6AA 3px;
+    width: 50%;
+}
+.funds-search-title {
+    color: #7CB6AA;
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 45px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.funds-search-block .search-form {
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-bottom: 30px;
+    width: auto;
+
+}
+.funds-search-block .search-form #search-input {
+    border: solid #dcdbc7 2px;
+    margin-bottom: 30px;
+    width: 100%;
 }

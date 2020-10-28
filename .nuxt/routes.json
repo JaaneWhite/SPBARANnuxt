@@ -30,6 +30,12 @@
     "chunkName": "pages/exhibition"
   },
   {
+    "name": "funds",
+    "path": "/funds",
+    "component": "D:\\\\Work\\\\Alt-soft\\\\SPBARANnuxt\\\\pages\\\\funds.vue",
+    "chunkName": "pages/funds"
+  },
+  {
     "name": "news",
     "path": "/news",
     "component": "D:\\\\Work\\\\Alt-soft\\\\SPBARANnuxt\\\\pages\\\\news.vue",

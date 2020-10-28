@@ -14,7 +14,7 @@
       <b-dropdown-item>Архив в СМИ</b-dropdown-item>
     </b-nav-item-dropdown>
     <b-nav-item-dropdown id="dropdown-2" text="ЭЛЕКТРОННЫЙ КАТАЛОГ" class="menu-button-top">
-      <b-dropdown-item>Фонды</b-dropdown-item>
+      <b-dropdown-item to="funds">Фонды</b-dropdown-item>
 
     </b-nav-item-dropdown>
     <b-nav-item-dropdown id="dropdown-3" text="НАУЧНАЯ ДЕЯТЕЛЬНОСТЬ" class="menu-button-top">

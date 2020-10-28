@@ -8,6 +8,7 @@ const _bf4557a4 = () => interopDefault(import('..\\pages\\activities.vue' /* web
 const _3877cbd4 = () => interopDefault(import('..\\pages\\contacts.vue' /* webpackChunkName: "pages/contacts" */))
 const _3eb5e51e = () => interopDefault(import('..\\pages\\exb.vue' /* webpackChunkName: "pages/exb" */))
 const _574d6d10 = () => interopDefault(import('..\\pages\\exhibition.vue' /* webpackChunkName: "pages/exhibition" */))
+const _c7cf8fc6 = () => interopDefault(import('..\\pages\\funds.vue' /* webpackChunkName: "pages/funds" */))
 const _795c52d4 = () => interopDefault(import('..\\pages\\news.vue' /* webpackChunkName: "pages/news" */))
 const _0636d8c8 = () => interopDefault(import('..\\pages\\publications.vue' /* webpackChunkName: "pages/publications" */))
 const _01c27e5f = () => interopDefault(import('..\\pages\\services.vue' /* webpackChunkName: "pages/services" */))
@@ -49,6 +50,10 @@ export const routerOptions = {
     path: "/exhibition",
     component: _574d6d10,
     name: "exhibition"
+  }, {
+    path: "/funds",
+    component: _c7cf8fc6,
+    name: "funds"
   }, {
     path: "/news",
     component: _795c52d4,
