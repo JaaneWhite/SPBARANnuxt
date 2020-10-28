@@ -5,7 +5,7 @@
         <b-breadcrumb :items="items"></b-breadcrumb>
       </b-row>
       <b-container class="main-content-block">
-        <b-row class="actual-title">Иван Иванович Толстой (1880–1954): к 140-летию со дня рождения</b-row>
+        <b-row class="page-title">Иван Иванович Толстой (1880–1954): к 140-летию со дня рождения</b-row>
         <b-row class="exhibition-body">
           <b-col cols="4" class="exhibition-picture">
             <div class="exhibition-picture-image-block">

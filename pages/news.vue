@@ -5,7 +5,7 @@
         <b-breadcrumb :items="items"></b-breadcrumb>
       </b-row>
       <row class="main-content-block">
-        <b-row class="actual-title">Новости</b-row>
+        <b-row class="page-title">Новости</b-row>
         <b-container class="news-rows">
           <b-row class="news-row">
             <news-block />

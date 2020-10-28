@@ -4,7 +4,7 @@
        <div class="content-row">
          <div class="content-main">
            <b-container class="main-content-block">
-             <b-row class="actual-title">Актуальное</b-row>
+             <b-row class="actual-title-home-page">Актуальное</b-row>
              <b-container class="news-rows">
                <b-row class="news-row">
                <news-block />

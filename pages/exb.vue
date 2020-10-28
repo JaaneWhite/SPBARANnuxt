@@ -5,7 +5,7 @@
         <b-breadcrumb :items="items"></b-breadcrumb>
       </b-row>
       <b-container class="main-content-block">
-        <b-row class="actual-title">Выставочная деятельность</b-row>
+        <b-row class="page-title">Выставочная деятельность</b-row>
         <b-row class="year-filter">
           <div class="years-col">
           <b-link class="year-link">2020</b-link>

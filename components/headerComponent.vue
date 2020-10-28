@@ -15,7 +15,9 @@
     </div>
 
     <div class="header-logobar">
+
       <div class="logo-arch">
+        <b-container class="logo-arch">
         <img class="img-logo" src="~/assets/img/logo.png" />
 
         <div class="title-arch">
@@ -24,12 +26,14 @@
 
         </div>
         <img class="img-book" src="~/assets/img/book.png" />
+          </b-container>
       </div>
+
     </div>
 
-    <div class="main-menu-bar">
+    <b-container class="main-menu-bar">
       <main-menu />
-    </div>
+    </b-container>
   </header>
 </template>
 

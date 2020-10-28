@@ -7,7 +7,7 @@
       <b-container class="main-content-block">
         <b-row class="contact-page-row">
           <b-col class="contact-page-address-block">
-            <b-row class="actual-title">Адрес архива</b-row>
+            <b-row class="page-title">Адрес архива</b-row>
             <b-row>
               <address-block class="contacts-ab"/>
               <transport-block class="contacts-ab" />
@@ -21,7 +21,7 @@
 
           </b-col>
           <b-col class="contact-page-phone-block">
-            <b-row class="actual-title">Телефоны</b-row>
+            <b-row class="page-title">Телефоны</b-row>
             <b-row class="phone-title">
               <b-col md="auto"><b>Дирекция</b></b-col>
               <b-col md="auto"><b-img src="~assets/img/tire.png"></b-img></b-col>
