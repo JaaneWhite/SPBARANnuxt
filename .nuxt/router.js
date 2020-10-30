@@ -3,16 +3,17 @@ import Router from 'vue-router'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _53026ddc = () => interopDefault(import('..\\pages\\about.vue' /* webpackChunkName: "pages/about" */))
-const _bf4557a4 = () => interopDefault(import('..\\pages\\activities.vue' /* webpackChunkName: "pages/activities" */))
-const _3877cbd4 = () => interopDefault(import('..\\pages\\contacts.vue' /* webpackChunkName: "pages/contacts" */))
-const _3eb5e51e = () => interopDefault(import('..\\pages\\exb.vue' /* webpackChunkName: "pages/exb" */))
-const _574d6d10 = () => interopDefault(import('..\\pages\\exhibition.vue' /* webpackChunkName: "pages/exhibition" */))
-const _c7cf8fc6 = () => interopDefault(import('..\\pages\\funds.vue' /* webpackChunkName: "pages/funds" */))
-const _795c52d4 = () => interopDefault(import('..\\pages\\news.vue' /* webpackChunkName: "pages/news" */))
-const _0636d8c8 = () => interopDefault(import('..\\pages\\publications.vue' /* webpackChunkName: "pages/publications" */))
-const _01c27e5f = () => interopDefault(import('..\\pages\\services.vue' /* webpackChunkName: "pages/services" */))
-const _72ba48a1 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
+const _7e8f2163 = () => interopDefault(import('../pages/about.vue' /* webpackChunkName: "pages/about" */))
+const _2626bd07 = () => interopDefault(import('../pages/activities.vue' /* webpackChunkName: "pages/activities" */))
+const _230796ed = () => interopDefault(import('../pages/contacts.vue' /* webpackChunkName: "pages/contacts" */))
+const _09d06336 = () => interopDefault(import('../pages/exb.vue' /* webpackChunkName: "pages/exb" */))
+const _45d2542e = () => interopDefault(import('../pages/exhibition.vue' /* webpackChunkName: "pages/exhibition" */))
+const _70b628b8 = () => interopDefault(import('../pages/funds.vue' /* webpackChunkName: "pages/funds" */))
+const _4937926d = () => interopDefault(import('../pages/news.vue' /* webpackChunkName: "pages/news" */))
+const _3f496f61 = () => interopDefault(import('../pages/publications.vue' /* webpackChunkName: "pages/publications" */))
+const _7006bd3d = () => interopDefault(import('../pages/register.vue' /* webpackChunkName: "pages/register" */))
+const _275b6d10 = () => interopDefault(import('../pages/services.vue' /* webpackChunkName: "pages/services" */))
+const _c37207b0 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 // TODO: remove in Nuxt 3
 const emptyFn = () => {}
@@ -32,43 +33,47 @@ export const routerOptions = {
 
   routes: [{
     path: "/about",
-    component: _53026ddc,
+    component: _7e8f2163,
     name: "about"
   }, {
     path: "/activities",
-    component: _bf4557a4,
+    component: _2626bd07,
     name: "activities"
   }, {
     path: "/contacts",
-    component: _3877cbd4,
+    component: _230796ed,
     name: "contacts"
   }, {
     path: "/exb",
-    component: _3eb5e51e,
+    component: _09d06336,
     name: "exb"
   }, {
     path: "/exhibition",
-    component: _574d6d10,
+    component: _45d2542e,
     name: "exhibition"
   }, {
     path: "/funds",
-    component: _c7cf8fc6,
+    component: _70b628b8,
     name: "funds"
   }, {
     path: "/news",
-    component: _795c52d4,
+    component: _4937926d,
     name: "news"
   }, {
     path: "/publications",
-    component: _0636d8c8,
+    component: _3f496f61,
     name: "publications"
   }, {
+    path: "/register",
+    component: _7006bd3d,
+    name: "register"
+  }, {
     path: "/services",
-    component: _01c27e5f,
+    component: _275b6d10,
     name: "services"
   }, {
     path: "/",
-    component: _72ba48a1,
+    component: _c37207b0,
     name: "index"
   }],
 

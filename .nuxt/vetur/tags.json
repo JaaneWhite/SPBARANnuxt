@@ -5,6 +5,18 @@
   "LazyAddressBlock": {
     "description": "Auto imported from components/AddressBlock.vue"
   },
+  "PhoneBlock": {
+    "description": "Auto imported from components/PhoneBlock.vue"
+  },
+  "LazyPhoneBlock": {
+    "description": "Auto imported from components/PhoneBlock.vue"
+  },
+  "TransportBlock": {
+    "description": "Auto imported from components/TransportBlock.vue"
+  },
+  "LazyTransportBlock": {
+    "description": "Auto imported from components/TransportBlock.vue"
+  },
   "ExbBlock": {
     "description": "Auto imported from components/exbBlock.vue"
   },
@@ -40,17 +52,5 @@
   },
   "LazyPagination": {
     "description": "Auto imported from components/pagination.vue"
-  },
-  "PhoneBlock": {
-    "description": "Auto imported from components/PhoneBlock.vue"
-  },
-  "LazyPhoneBlock": {
-    "description": "Auto imported from components/PhoneBlock.vue"
-  },
-  "TransportBlock": {
-    "description": "Auto imported from components/TransportBlock.vue"
-  },
-  "LazyTransportBlock": {
-    "description": "Auto imported from components/TransportBlock.vue"
   }
 }

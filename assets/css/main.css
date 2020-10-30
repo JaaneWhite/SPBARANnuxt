@@ -36,7 +36,6 @@ header {
     display: flex;
 }
 .search-form {
-    margin-left: 260px;
     margin-top: 12px;
     width: 392px;
     height: 38px;
@@ -54,9 +53,10 @@ header {
     font-size: 14px;
 }
 .lang-switcher {
-    position: absolute;
-    right: 260px;
-    top: 24px;
+    display: flex;
+    margin-top: 12px;
+    height: 38px;
+    align-items: center;
     font-style: normal;
     font-weight: 900;
     font-size: 14px;
@@ -200,7 +200,7 @@ header {
     padding: 30px;
     padding-right: 10px;
 }
-.page-title {
+.page-title, .actual-title-home-page {
     font-size: 24px;
     font-weight: bold;
     width: auto;
@@ -211,6 +211,7 @@ header {
 }
 .actual-title-home-page {
     margin-top: 38px;
+
 }
 
 
@@ -749,4 +750,201 @@ footer {
     border: solid #dcdbc7 2px;
     margin-bottom: 30px;
     width: 100%;
+}
+.funds-filter-row {
+    margin-top: 30px;
+}
+.funds-filter-title {
+    color: black;
+    font-size: 14px;
+    font-style: italic;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+
+.vue-treeselect__control, .vue-treeselect__menu {
+    background-color: #f9f9ed !important;
+}
+.vue-treeselect__control {
+    border-color: #dcdbc7 !important;
+}
+
+.vue-treeselect__multi-value-item {
+    color: black !important;
+    font-weight: bold;
+    background: none !important;
+    font-size: 14px !important;
+}
+.vue-treeselect__value-remove {
+   display: none !important;
+}
+
+.vue-treeselect__label {
+    white-space: normal !important;
+    font-size: 14px !important;
+}
+
+.vue-treeselect__option:hover, .vue-treeselect__option:focus, .vue-treeselect__option:active, .vue-treeselect__option--highlight {
+    background-color: #f9f9ed !important;
+}
+.vue-treeselect__label:hover {
+    color: #7CB6AA !important;
+}
+.vue-treeselect__indent-level-1, .vue-treeselect__indent-level-0 {
+    font-weight: bold;
+}
+.vue-treeselect__indent-level-2 {
+    font-weight: normal;
+}
+
+.vue-treeselect__checkbox {
+   border-color: #dcdbc7 !important;
+   height: 19px !important;
+    width: 19px !important;
+    background-color: white !important;
+}
+
+.vue-treeselect__checkbox--checked {
+    border-color: #dcdbc7 !important;
+    background-color: white !important;
+
+}
+.vue-treeselect__check-mark {
+    background-image: url('~assets/img/checkmark.png') !important;
+    height: 16px !important;
+    width: 16px !important;
+    background-size: auto !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    position: relative !important;
+}
+.vue-treeselect__minus-mark {
+    display: none !important;
+}
+.vue-treeselect__sizer {
+    visibility: visible !important;
+}
+
+.form-control, .form-control:active, form-control:focus {
+    font-weight: bold;
+    color: black;
+    height: 40px;
+    border: none;
+    padding-left: 5px;
+    padding-top: 10px;
+}
+.filter-col {
+    border-left: solid #dcdbc5 1px;
+}
+.funds-pagin-row {
+    margin-top: 30px;
+}
+.funds-num-col, .funds-pag-col {
+    display: flex;
+    align-items: center;
+}
+.funds-list, .fund-item {
+    background-color: #f1f0dd;
+    font-weight: bold;
+    border: none;
+}
+.fund-item:hover {
+    color: #7CB6AA;
+    background-color: #f9f9ed;
+    cursor: pointer;
+}
+.funds-bottom {
+    margin-top: 30px;
+    display: flex;
+
+}
+.funds-pagin-bottom {
+    margin: auto;
+}
+.fund-item-archive {
+    background-image: url('~assets/img/Ellipse_1.png');
+    background-repeat: no-repeat;
+    background-position-y: center ;
+    display: flex;
+    align-items: center;
+
+}
+.fund-item-num {
+    display: flex;
+    align-items: center;
+}
+.fund-info-cont {
+    background-color: #ffffff;
+    color: #1A475A;
+    border-bottom: solid #7CB6AA 5px;
+}
+.fund-info-title {
+    background-color: #f9f9ed;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 1.773;
+    padding-left: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.fund-info-text {
+    padding-left: 15px;
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+.fund-info-text-right {
+    border-left: solid #7CB6AA 1px;
+
+}
+.fund-review-row {
+    margin-top: 30px;
+}
+.fund-review-row a{
+    color: #1A475A;
+    font-size: 16px;
+}
+.img-arrow-down {
+    margin-left: 3px;
+}
+.fund-review-title {
+    font-size: 15px;
+    font-weight: bold;
+    color: #1A475A;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.fund-review-text {
+    color: #1A475A;
+    font-size: 18px;
+    line-height: 1.667;
+    margin-bottom: 20px;
+}
+.tree-mode-button {
+    background-color: transparent !important;
+    width: 25px;
+    height: 23px;
+    border: none;
+    box-shadow: none;
+    background-repeat: no-repeat;
+    border-radius: 0px;
+    background-position: center;
+
+}
+.tree-mode-button.table-mode-button {
+    background-image: url("~assets/img/tile_b.png");
+    margin-right: 10px;
+
+
+}
+.tree-mode-button.table-mode-button.active {
+    background-image: url("~assets/img/tile_g.png");
+    box-shadow: none;
+}
+.tree-mode-button.list-mode-button {
+    background-image: url("~assets/img/line_b.png");
+}
+.tree-mode-button.list-mode-button.active {
+    background-image: url("~assets/img/line_g.png");
+    box-shadow: none;
 }
