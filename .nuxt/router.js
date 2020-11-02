@@ -9,6 +9,7 @@ const _230796ed = () => interopDefault(import('../pages/contacts.vue' /* webpack
 const _09d06336 = () => interopDefault(import('../pages/exb.vue' /* webpackChunkName: "pages/exb" */))
 const _45d2542e = () => interopDefault(import('../pages/exhibition.vue' /* webpackChunkName: "pages/exhibition" */))
 const _70b628b8 = () => interopDefault(import('../pages/funds.vue' /* webpackChunkName: "pages/funds" */))
+const _e944ee9c = () => interopDefault(import('../pages/inventory.vue' /* webpackChunkName: "pages/inventory" */))
 const _4937926d = () => interopDefault(import('../pages/news.vue' /* webpackChunkName: "pages/news" */))
 const _3f496f61 = () => interopDefault(import('../pages/publications.vue' /* webpackChunkName: "pages/publications" */))
 const _7006bd3d = () => interopDefault(import('../pages/register.vue' /* webpackChunkName: "pages/register" */))
@@ -55,6 +56,10 @@ export const routerOptions = {
     path: "/funds",
     component: _70b628b8,
     name: "funds"
+  }, {
+    path: "/inventory",
+    component: _e944ee9c,
+    name: "inventory"
   }, {
     path: "/news",
     component: _4937926d,

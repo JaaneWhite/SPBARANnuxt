@@ -6,8 +6,8 @@
       </b-row>
       <b-container class="main-content-block">
         <b-row class="page-title">Публикации</b-row>
-        <b-row class="publ-group-row">
-          <b-button v-b-toggle.collapse-a class="publ-group-col">
+        <b-row class="collapse-group-row">
+          <b-button v-b-toggle.collapse-a class="collapse-group-col">
             <b-row class="collapse-button">
               <b-col cols="11">
                 Указатели по фондам архива РАН
@@ -18,7 +18,7 @@
 
           </b-button>
           <b-collapse id="collapse-a" class="publ-col">
-            <b-card class="publ-card">
+            <b-card class="collapse-card">
               <p><b-link class="publ-link">Серия "Труды Архива". Обозрения архивных материалов</b-link></p>
               <p><b-link class="publ-link">Серия "Труды Архива". Прочие выпуски, посвященные фондам, хранящимся в АРАН (Москва)</b-link></p>
               <p><b-link class="publ-link">Серия "Труды Архива". Прочие выпуски, посвященные фондам, хранящимся в СПФ АРАН (Санкт-Петербург)</b-link></p>
@@ -27,8 +27,8 @@
           </b-collapse>
         </b-row>
 
-        <b-row class="publ-group-row">
-          <b-button v-b-toggle.collapse-b class="publ-group-col">
+        <b-row class="collapse-group-row">
+          <b-button v-b-toggle.collapse-b class="collapse-group-col">
             <b-row class="collapse-button">
               <b-col cols="11">
                 Отдел финансово-экономической и организационной работы
@@ -38,14 +38,14 @@
             </b-row>
           </b-button>
           <b-collapse id="collapse-b" class="publ-col">
-            <b-card class="publ-card">
+            <b-card class="collapse-card">
               <p><b-link class="publ-link">Отдел финансово-экономической и организационной работы</b-link></p>
             </b-card>
           </b-collapse>
         </b-row>
 
-        <b-row class="publ-group-row">
-          <b-button v-b-toggle.collapse-c class="publ-group-col">
+        <b-row class="collapse-group-row">
+          <b-button v-b-toggle.collapse-c class="collapse-group-col">
           <b-row class="collapse-button">
             <b-col cols="11">
               Монографии
@@ -55,14 +55,14 @@
           </b-row>
           </b-button>
           <b-collapse id="collapse-c" class="publ-col">
-            <b-card class="publ-card">
+            <b-card class="collapse-card">
               <p><b-link class="publ-link">Монографии</b-link></p>
             </b-card>
           </b-collapse>
         </b-row>
 
-        <b-row class="publ-group-row">
-          <b-button v-b-toggle.collapse-d class="publ-group-col">
+        <b-row class="collapse-group-row">
+          <b-button v-b-toggle.collapse-d class="collapse-group-col">
 
             <b-row class="collapse-button">
               <b-col cols="11">
@@ -74,14 +74,14 @@
 
           </b-button>
           <b-collapse id="collapse-d" class="publ-col">
-            <b-card class="publ-card">
+            <b-card class="collapse-card">
               <p><b-link class="publ-link">Сборники статей / Материалы конференций</b-link></p>
             </b-card>
           </b-collapse>
         </b-row>
 
-        <b-row class="publ-group-row">
-          <b-button v-b-toggle.collapse-e class="publ-group-col">
+        <b-row class="collapse-group-row">
+          <b-button v-b-toggle.collapse-e class="collapse-group-col">
             <b-row class="collapse-button">
               <b-col cols="11">
                 Справочные и методические издания
@@ -92,14 +92,14 @@
 
           </b-button>
           <b-collapse id="collapse-e" class="publ-col">
-            <b-card class="publ-card">
+            <b-card class="collapse-card">
               <p><b-link class="publ-link">Справочные и методические издания</b-link></p>
             </b-card>
           </b-collapse>
         </b-row>
 
-        <b-row class="publ-group-row">
-          <b-button v-b-toggle.collapse-f class="publ-group-col">
+        <b-row class="collapse-group-row">
+          <b-button v-b-toggle.collapse-f class="collapse-group-col">
 
             <b-row class="collapse-button">
               <b-col cols="11">
@@ -111,14 +111,14 @@
 
           </b-button>
           <b-collapse id="collapse-f" class="publ-col">
-            <b-card class="publ-card">
+            <b-card class="collapse-card">
               <p><b-link class="publ-link">Статьи сотрудников СПФ АРАН</b-link></p>
             </b-card>
           </b-collapse>
         </b-row>
 
-        <b-row class="publ-group-row">
-          <b-button v-b-toggle.collapse-g class="publ-group-col">
+        <b-row class="collapse-group-row">
+          <b-button v-b-toggle.collapse-g class="collapse-group-col">
 
             <b-row class="collapse-button">
               <b-col cols="11">
@@ -129,7 +129,7 @@
             </b-row>
           </b-button>
           <b-collapse id="collapse-g" class="publ-col">
-            <b-card class="publ-card">
+            <b-card class="collapse-card">
               <p><b-link class="publ-link">Электронные публикации сотрудников СПФ АРАН</b-link></p>
             </b-card>
           </b-collapse>

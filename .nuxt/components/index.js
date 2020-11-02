@@ -1,4 +1,6 @@
 export { default as AddressBlock } from '../../components/AddressBlock.vue'
+export { default as InventoryImgCard } from '../../components/InventoryImgCard.vue'
+export { default as InventoryItem } from '../../components/InventoryItem.vue'
 export { default as PhoneBlock } from '../../components/PhoneBlock.vue'
 export { default as TransportBlock } from '../../components/TransportBlock.vue'
 export { default as ExbBlock } from '../../components/exbBlock.vue'
@@ -9,6 +11,8 @@ export { default as NewsBlock } from '../../components/newsBlock.vue'
 export { default as Pagination } from '../../components/pagination.vue'
 
 export const LazyAddressBlock = import('../../components/AddressBlock.vue' /* webpackChunkName: "components/AddressBlock" */).then(c => c.default || c)
+export const LazyInventoryImgCard = import('../../components/InventoryImgCard.vue' /* webpackChunkName: "components/InventoryImgCard" */).then(c => c.default || c)
+export const LazyInventoryItem = import('../../components/InventoryItem.vue' /* webpackChunkName: "components/InventoryItem" */).then(c => c.default || c)
 export const LazyPhoneBlock = import('../../components/PhoneBlock.vue' /* webpackChunkName: "components/PhoneBlock" */).then(c => c.default || c)
 export const LazyTransportBlock = import('../../components/TransportBlock.vue' /* webpackChunkName: "components/TransportBlock" */).then(c => c.default || c)
 export const LazyExbBlock = import('../../components/exbBlock.vue' /* webpackChunkName: "components/exbBlock" */).then(c => c.default || c)

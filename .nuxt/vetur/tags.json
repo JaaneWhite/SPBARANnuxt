@@ -5,6 +5,18 @@
   "LazyAddressBlock": {
     "description": "Auto imported from components/AddressBlock.vue"
   },
+  "InventoryImgCard": {
+    "description": "Auto imported from components/InventoryImgCard.vue"
+  },
+  "LazyInventoryImgCard": {
+    "description": "Auto imported from components/InventoryImgCard.vue"
+  },
+  "InventoryItem": {
+    "description": "Auto imported from components/InventoryItem.vue"
+  },
+  "LazyInventoryItem": {
+    "description": "Auto imported from components/InventoryItem.vue"
+  },
   "PhoneBlock": {
     "description": "Auto imported from components/PhoneBlock.vue"
   },

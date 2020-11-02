@@ -9,7 +9,7 @@
         <b-row class="exhibition-body">
           <b-col cols="4" class="exhibition-picture">
             <div class="exhibition-picture-image-block">
-              <b-img src="~assets/img/tolstoy.png"></b-img>
+              <b-img v-img :src="mainimgsrc" class="exhibition-image-main"></b-img>
             </div>
             <div class="exhibition-picture-text-block">
               <row class="exhibition-picture-text-block-counter">1 из 12</row>
@@ -27,9 +27,9 @@
           </b-col>
           <b-col cols="1" class="exhibition-slider">
             <b-button class="slider-arrow-button"><b-img src="~assets/img/arrow up.png"></b-img> </b-button>
-            <b-button class="slider-button"><b-img class="btn-bgr-img" src="~assets/img/tolstoy.png"></b-img> </b-button>
-            <b-button class="slider-button"><b-img class="btn-bgr-img" src="~assets/img/tolstoy.png"></b-img> </b-button>
-            <b-button class="slider-button"><b-img class="btn-bgr-img" src="~assets/img/tolstoy.png"></b-img> </b-button>
+            <b-button class="slider-button"><b-img class="btn-bgr-img" src="~assets/img/tolstoy.png" v-on:click="mainimgsrc='_nuxt/assets/img/tolstoy.png'"></b-img> </b-button>
+            <b-button class="slider-button"><b-img class="btn-bgr-img" src="~assets/img/layer_3.png" v-on:click="mainimgsrc='_nuxt/assets/img/layer_3.png'"></b-img> </b-button>
+            <b-button class="slider-button"><b-img class="btn-bgr-img" src="~assets/img/layer_4.png" v-on:click="mainimgsrc='_nuxt/assets/img/layer_4.png'"></b-img> </b-button>
 
 
             <b-button class="slider-arrow-button"><b-img src="~assets/img/arrow down.png"></b-img></b-button>
@@ -117,12 +117,18 @@
 </template>
 
 <script>
+import Vue from 'vue';
+import VueImg from 'v-img';
 
+Vue.use(VueImg);
 
 export default {
   name: "exhibition",
+
+
   data() {
     return {
+      mainimgsrc: "_nuxt/assets/img/tolstoy.png",
       items: [
         {
           text: 'Главная',

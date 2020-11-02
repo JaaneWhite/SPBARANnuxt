@@ -14,7 +14,7 @@
           Поправочные коэффициенты к указанным ценам на сканирование и ксерокопирование в случае использования документов для публикаций:
         </b-row>
         <b-row>
-          <b-table :fields="tablefields" :items="tableitems" class="price-table" borderless>
+          <b-table :fields="tablefields" :items="tableitems" class="all-tables" borderless>
           </b-table>
         </b-row>
         <b-row class="page-title">Правила</b-row>

@@ -59,13 +59,59 @@
           </b-col>
         </b-row>
         <b-container :class="treeMode" class="inventories">
-        <b-row class="inventories-title-row">
+          <b-row class="inventories-title-row">
           <b-col cols="11" class="fund-review-title">ПЕРЕЧЕНЬ ОПИСЕЙ (135)</b-col>
           <b-col cols="1" class="tree-mode-container">
                 <b-button :class="activeTableMode" class="tree-mode-button table-mode-button" v-on:click="changeTreeMode('tableMode')"></b-button>
                 <b-button :class="activeListMode" class="tree-mode-button list-mode-button " v-on:click="changeTreeMode('listMode')"></b-button>
           </b-col>
         </b-row>
+          <b-row class="inv-pagin-row">
+            <b-col cols="5" class="inv-num-col">
+              <div class="inv-pagin-title">Показано описей: 1-12 из 135</div>
+            </b-col>
+            <b-col cols="7" class="inv-pag-col">
+              <pagination />
+            </b-col>
+          </b-row>
+          <b-row class="inv-items">
+            <b-row class="inv-items-row">
+              <inventoryItem :inv-item-cols="invItemCols" :tree-mode="treeMode"/>
+              <inventoryItem :inv-item-cols="invItemCols" :tree-mode="treeMode"/>
+            </b-row>
+            <b-row class="inv-items-row">
+              <inventoryItem :inv-item-cols="invItemCols" :tree-mode="treeMode"/>
+              <inventoryItem :inv-item-cols="invItemCols" :tree-mode="treeMode"/>
+            </b-row>
+            <b-row class="inv-items-row">
+              <inventoryItem :inv-item-cols="invItemCols" :tree-mode="treeMode"/>
+              <inventoryItem :inv-item-cols="invItemCols" :tree-mode="treeMode"/>
+            </b-row>
+            <b-row class="inv-items-row">
+              <inventoryItem :inv-item-cols="invItemCols" :tree-mode="treeMode"/>
+              <inventoryItem :inv-item-cols="invItemCols" :tree-mode="treeMode"/>
+            </b-row>
+            <b-row class="inv-items-row">
+              <inventoryItem :inv-item-cols="invItemCols" :tree-mode="treeMode"/>
+              <inventoryItem :inv-item-cols="invItemCols" :tree-mode="treeMode"/>
+            </b-row>
+            <b-row class="inv-items-row">
+              <inventoryItem :inv-item-cols="invItemCols" :tree-mode="treeMode"/>
+              <inventoryItem :inv-item-cols="invItemCols" :tree-mode="treeMode"/>
+            </b-row>
+          </b-row>
+          <b-row class="inv-pagin-row">
+            <b-col cols="5" class="inv-num-col">
+              <div class="inv-pagin-title"></div>
+            </b-col>
+            <b-col cols="7" class="inv-pag-col">
+              <pagination />
+            </b-col>
+          </b-row>
+
+
+
+
         </b-container>
 
       </b-container>
@@ -74,24 +120,29 @@
 </template>
 
 <script>
+import InventoryItem from "@/components/InventoryItem";
 export default {
   name: "register",
+  components: {InventoryItem},
   data() {
     return {
       treeMode: 'tableMode',
       activeTableMode: 'active',
       activeListMode: '',
+      invItemCols: '',
         changeTreeMode: function (treeModeVar) {
           if (treeModeVar == 'tableMode') {
             if (this.activeListMode == 'active') {
               this.activeListMode = '';
               this.activeTableMode = 'active';
               this.treeMode = 'tableMode';
+              this.invItemCols = '';
             }
           } else {
               this.activeListMode = 'active';
               this.activeTableMode = '';
               this.treeMode = 'listMode';
+              this.invItemCols = '12';
             }
 
         },
@@ -121,6 +172,3 @@ export default {
 
 </script>
 
-<style scoped>
-
-</style>
