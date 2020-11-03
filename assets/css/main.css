@@ -120,6 +120,7 @@ header {
 .top-menu {
     margin: auto;
     padding-top: 50px;
+    padding-bottom: 0px;
 }
 .main-menu-bar {
     position: relative;
@@ -127,9 +128,13 @@ header {
     padding-right: 0px;
 }
 
+
 .home-logo {
     height: 15px;
     width: 15px;
+}
+.navbar-nav {
+    width: 100%;
 }
 .nav-item {
     color: #1a475a;
@@ -143,28 +148,32 @@ header {
 .nav-link {
 
     padding-top: 15px;
-    color: #1A475A;
+    color: #1A475A !important;
     vertical-align: center;
     height: 100%;
 }
 
 .nav-item:hover {
-    color: white;
+    color: white !important;
     background-color: #7CB6AA;
     border: none;
     border-radius: 0px;
 }
 .nav-link:hover {
-    color: white;
+    color: white !important;
 }
- .nav-pills .show > .nav-link {
+.nav-item.show .nav-link{
+    color: white !important;
+}
+
+ .nav-item.show > .nav-link {
     color: #fff;
     background-color: #7CB6AA;
     width: 100%;
     height: 100%;
      border-radius: 0px;
 }
-.nav-pills .nav-link.nuxt-link-exact-active {
+.nav-link.nuxt-link-exact-active {
     border-bottom: solid #7CB6AA 3px;
     background-color: transparent;
     border-radius: 0px;
@@ -181,6 +190,7 @@ header {
     padding-bottom: 15px;
     padding-right: 15px;
     text-align: left;
+    opacity: 100%;
 }
 .dropdown-item:hover {
     background-color: #1A475A;
@@ -193,6 +203,14 @@ header {
     border: none;
     margin: auto;
 }
+.navbar-collapse.show .nav-item {
+    text-align: left;
+}
+
+
+
+
+
 
 .content-wrap {
     display: flex;
@@ -202,12 +220,15 @@ header {
 .content-main {
     display: block;
 
+
 }
 
 .content-row {
+    position: relative;
     background-color: #f1f0dd;
     margin: auto;
     min-height: 900px;
+    box-shadow: 0 10px 20px  #c5dad6;
 }
 
 .main-content-block {
@@ -440,6 +461,7 @@ footer {
     background-color: #1a475a;
     vertical-align: center;
     display: flex;
+    position: relative;
 }
 
 .footer-text {
@@ -692,6 +714,15 @@ footer {
     align-items: center;
     box-shadow: none !important;
 }
+@media (max-device-width: 1024px) {
+    .slider-arrow-button  {
+        transform: rotate(270deg);
+        text-align: center;
+
+
+    }
+}
+
 
 .slider-button, .slider-button:hover, .slider-button:active, .slider-button:focus {
     width: 100px;
@@ -704,11 +735,7 @@ footer {
     background-color: transparent;
     box-shadow: none !important;
 }
-@media (max-device-width: 768px) {
-    .slider-arrow-button, .slider-button  {
 
-    }
-}
 
 
 

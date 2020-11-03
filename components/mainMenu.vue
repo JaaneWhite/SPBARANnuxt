@@ -1,10 +1,14 @@
 <template>
-  <b-nav pills fill class="top-menu">
-    <b-nav-item to="/" class="menu-button-top">
-      <b-img src="~/assets/SVG/home.svg" class="home-logo" alt="Home"></b-img>
-    </b-nav-item>
-    <b-nav-item class="menu-button-top" to="news">НОВОСТИ</b-nav-item>
-    <b-nav-item-dropdown class="menu-button-top" id="dropdown-1" text="ОБ АРХИВЕ">
+  <b-navbar toggleable="lg" class="top-menu">
+    <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+
+    <b-collapse id="nav-collapse" is-nav>
+      <b-navbar-nav fill>
+        <b-nav-item to="/" class="menu-button-top">
+          <b-img src="~/assets/SVG/home.svg" class="home-logo" alt="Home"></b-img>
+        </b-nav-item>
+        <b-nav-item class="menu-button-top" to="news">НОВОСТИ</b-nav-item>
+        <b-nav-item-dropdown class="menu-button-top" id="dropdown-1" text="ОБ АРХИВЕ">
       <b-dropdown-item to="about">История архива</b-dropdown-item>
       <b-dropdown-item>Архив РАН</b-dropdown-item>
       <b-dropdown-item>Архивное законодательство</b-dropdown-item>
@@ -13,18 +17,20 @@
       <b-dropdown-item>Сотрудники</b-dropdown-item>
       <b-dropdown-item>Архив в СМИ</b-dropdown-item>
     </b-nav-item-dropdown>
-    <b-nav-item-dropdown id="dropdown-2" text="ЭЛЕКТРОННЫЙ КАТАЛОГ" class="menu-button-top">
+        <b-nav-item-dropdown id="dropdown-2" text="ЭЛЕКТРОННЫЙ КАТАЛОГ" class="menu-button-top">
       <b-dropdown-item to="funds">Фонды</b-dropdown-item>
 
     </b-nav-item-dropdown>
-    <b-nav-item-dropdown id="dropdown-3" text="НАУЧНАЯ ДЕЯТЕЛЬНОСТЬ" class="menu-button-top">
+        <b-nav-item-dropdown id="dropdown-3" text="НАУЧНАЯ ДЕЯТЕЛЬНОСТЬ" class="menu-button-top">
       <b-dropdown-item to="activities">Основные направления деятельности и научных исследований</b-dropdown-item>
       <b-dropdown-item to="publications">Публикации</b-dropdown-item>
     </b-nav-item-dropdown>
-    <b-nav-item to="exb" class="menu-button-top">ВЫСТАВКИ</b-nav-item>
-    <b-nav-item to="services" class="menu-button-top">УСЛУГИ</b-nav-item>
-    <b-nav-item to="contacts" class="menu-button-top">КОНТАКТЫ</b-nav-item>
-  </b-nav>
+        <b-nav-item to="exb" class="menu-button-top">ВЫСТАВКИ</b-nav-item>
+        <b-nav-item to="services" class="menu-button-top">УСЛУГИ</b-nav-item>
+        <b-nav-item to="contacts" class="menu-button-top">КОНТАКТЫ</b-nav-item>
+      </b-navbar-nav>
+    </b-collapse>
+  </b-navbar>
 </template>
 
 <script>
@@ -34,6 +40,6 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 
 </style>

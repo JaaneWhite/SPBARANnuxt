@@ -7,7 +7,7 @@
       <b-container class="main-content-block">
         <b-row class="page-title">Иван Иванович Толстой (1880–1954): к 140-летию со дня рождения</b-row>
         <b-row class="exhibition-body">
-          <b-col cols="4" class="exhibition-picture">
+          <b-col cols="12" xl="4" class="exhibition-picture">
             <div class="exhibition-picture-image-block">
               <b-img v-img :src="mainimgsrc" class="exhibition-image-main"></b-img>
             </div>
@@ -25,7 +25,7 @@
               </row>
             </div>
           </b-col>
-          <b-col cols="1" class="exhibition-slider">
+          <b-col cols="12" xl="1" class="exhibition-slider">
             <b-button class="slider-arrow-button"><b-img src="~assets/img/arrow up.png"></b-img> </b-button>
             <b-button class="slider-button"><b-img class="btn-bgr-img" src="~assets/img/tolstoy.png" v-on:click="mainimgsrc='_nuxt/assets/img/tolstoy.png'"></b-img> </b-button>
             <b-button class="slider-button"><b-img class="btn-bgr-img" src="~assets/img/layer_3.png" v-on:click="mainimgsrc='_nuxt/assets/img/layer_3.png'"></b-img> </b-button>
@@ -35,7 +35,7 @@
             <b-button class="slider-arrow-button"><b-img src="~assets/img/arrow down.png"></b-img></b-button>
           </b-col>
 
-          <b-col cols="7" class="exhibition-text">
+          <b-col cols="12" xl="7" class="exhibition-text">
             <p>Филолог-классик Иван Иванович Толстой родился 26 августа 1880 г. в
             Санкт-Петербурге в семье выдающегося ученого, организатора науки и образования, государственного и
             общественного деятеля, будущего министра народного просвещения Российской империи (1905-1906 гг.) и
