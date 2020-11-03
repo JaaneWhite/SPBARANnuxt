@@ -1,10 +1,11 @@
 <template>
   <div class="content-wrap">
     <div class="content-row">
+      <div class="content-main">
       <b-row class="breadcrumbs">
         <b-breadcrumb :items="items"></b-breadcrumb>
       </b-row>
-      <row class="main-content-block">
+      <b-container class="main-content-block">
         <b-row class="page-title">Новости</b-row>
         <b-container class="news-rows">
           <b-row class="news-row">
@@ -34,11 +35,10 @@
           </b-col>
         </b-row>
 
-
-
-      </row>
+      </b-container>
 
     </div>
+  </div>
   </div>
 </template>
 

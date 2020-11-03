@@ -1,5 +1,5 @@
 <template>
-  <b-nav pills class="top-menu">
+  <b-nav pills fill class="top-menu">
     <b-nav-item to="/" class="menu-button-top">
       <b-img src="~/assets/SVG/home.svg" class="home-logo" alt="Home"></b-img>
     </b-nav-item>

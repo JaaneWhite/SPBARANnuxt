@@ -1,22 +1,22 @@
 <template>
-    <main>
-       <div class="content-wrap">
-       <div class="content-row">
-         <div class="content-main">
-           <b-container class="main-content-block">
-             <b-row class="actual-title-home-page">Актуальное</b-row>
-             <b-container class="news-rows">
-               <b-row class="news-row">
+  <div class="content-wrap">
+    <div class="content-row">
+      <div class="content-main">
+
+        <b-container class="main-content-block">
+          <b-row class="actual-title-home-page">Актуальное</b-row>
+          <b-container class="news-rows">
+            <b-row class="news-row">
                <news-block />
                <news-block />
-               </b-row>
-               <b-row class="news-row">
+            </b-row>
+            <b-row class="news-row">
                <news-block />
                <news-block />
-               </b-row>
-             </b-container>
-             </b-container>
-           </div>
+            </b-row>
+          </b-container>
+        </b-container>
+      </div>
 
 
          <div class="contact-row">
@@ -33,9 +33,6 @@
          </div>
        </div>
        </div>
-
-
-    </main>
 </template>
 
 <script>
