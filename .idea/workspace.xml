@@ -20,9 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75899b17-940d-4415-8aae-6d14808e9d1b" name="Default Changelist" comment="переделываем меню на navbar">
+      <change afterPath="$PROJECT_DIR$/assets/img/checkmark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/eye.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/components/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/routes.json" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/routes.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/vetur/tags.json" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/vetur/tags.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/mainMenu.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/mainMenu.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/InventoryImgCard.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/InventoryImgCard.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/headerComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/headerComponent.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/exhibition.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/exhibition.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -226,38 +236,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603710525420" />
-    <state width="1398" height="204" key="GridCell.Tab.0.bottom" timestamp="1604436692521">
-      <screen x="0" y="23" width="1440" height="807" />
+    <state width="1877" height="170" key="GridCell.Tab.0.bottom" timestamp="1604568231940">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.0.1440.820@0.0.1440.820" timestamp="1603954303880" />
-    <state width="1877" height="170" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603877531451" />
+    <state width="1877" height="170" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604568231940" />
     <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1604389532517" />
     <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.803@0.23.1440.803" timestamp="1604068576307" />
     <state width="1398" height="254" key="GridCell.Tab.0.bottom/0.23.1440.805@0.23.1440.805" timestamp="1604073837011" />
     <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.807@0.23.1440.807" timestamp="1604436692521" />
-    <state width="1398" height="204" key="GridCell.Tab.0.center" timestamp="1604436692520">
-      <screen x="0" y="23" width="1440" height="807" />
+    <state width="1877" height="170" key="GridCell.Tab.0.center" timestamp="1604568231940">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1398" height="204" key="GridCell.Tab.0.center/0.0.1440.820@0.0.1440.820" timestamp="1603954303877" />
-    <state width="1877" height="170" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603877531451" />
+    <state width="1877" height="170" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604568231940" />
     <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1604389532513" />
     <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.803@0.23.1440.803" timestamp="1604068576305" />
     <state width="1398" height="254" key="GridCell.Tab.0.center/0.23.1440.805@0.23.1440.805" timestamp="1604073837010" />
     <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.807@0.23.1440.807" timestamp="1604436692520" />
-    <state width="1398" height="204" key="GridCell.Tab.0.left" timestamp="1604436692519">
-      <screen x="0" y="23" width="1440" height="807" />
+    <state width="1877" height="170" key="GridCell.Tab.0.left" timestamp="1604568231939">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1398" height="204" key="GridCell.Tab.0.left/0.0.1440.820@0.0.1440.820" timestamp="1603954303876" />
-    <state width="1877" height="170" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603877531451" />
+    <state width="1877" height="170" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604568231939" />
     <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1604389532512" />
     <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.803@0.23.1440.803" timestamp="1604068576301" />
     <state width="1398" height="254" key="GridCell.Tab.0.left/0.23.1440.805@0.23.1440.805" timestamp="1604073837007" />
     <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.807@0.23.1440.807" timestamp="1604436692519" />
-    <state width="1398" height="204" key="GridCell.Tab.0.right" timestamp="1604436692520">
-      <screen x="0" y="23" width="1440" height="807" />
+    <state width="1877" height="170" key="GridCell.Tab.0.right" timestamp="1604568231940">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1398" height="204" key="GridCell.Tab.0.right/0.0.1440.820@0.0.1440.820" timestamp="1603954303879" />
-    <state width="1877" height="170" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603877531451" />
+    <state width="1877" height="170" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604568231940" />
     <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1604389532515" />
     <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.803@0.23.1440.803" timestamp="1604068576306" />
     <state width="1398" height="254" key="GridCell.Tab.0.right/0.23.1440.805@0.23.1440.805" timestamp="1604073837011" />
@@ -324,17 +334,5 @@
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state width="600" height="285" key="javadoc.popup/0.23.1440.797@0.23.1440.797" timestamp="1603977811935" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/components/headerComponent.vue</url>
-          <line>2</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

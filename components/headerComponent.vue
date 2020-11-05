@@ -24,15 +24,15 @@
 
       <b-row class="logo-arch">
 
-        <b-col cols="3" class="img-logo-col">
+        <b-col cols="2" class="img-logo-col">
          <b-img class="img-logo" src="~/assets/img/logo.png" />
         </b-col>
 
-        <b-col cols="6" class="title-arch">
-          <b-row class="title-text">САНКТ-ПЕТЕРБУРГСКИЙ ФИЛИАЛ АРХИВА <br> РОССИЙСКОЙ АКАДЕМИИ НАУК</b-row>
-          <b-row class="title-aran">СПбФ АРАН</b-row>
+        <b-col cols="8" class="title-arch">
+          <div class="title-text">САНКТ-ПЕТЕРБУРГСКИЙ ФИЛИАЛ АРХИВА <br> РОССИЙСКОЙ АКАДЕМИИ НАУК</div>
+          <div class="title-aran">СПбФ АРАН</div>
         </b-col>
-        <b-col cols="3" class="img-book-col">
+        <b-col cols="2" class="img-book-col">
           <img class="img-book" src="~/assets/img/book.png" />
         </b-col>
 

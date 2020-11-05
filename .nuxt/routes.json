@@ -2,73 +2,85 @@
   {
     "name": "about",
     "path": "/about",
-    "component": "/Users/anastasia/IdeaProjects/SPBARANnuxt/pages/about.vue",
-    "chunkName": "pages/about"
+    "component": "D:\\\\Work\\\\Alt-soft\\\\SPBARANnuxt\\\\pages\\\\about.vue",
+    "chunkName": "pages/about",
+    "_name": "_53026ddc"
   },
   {
     "name": "activities",
     "path": "/activities",
-    "component": "/Users/anastasia/IdeaProjects/SPBARANnuxt/pages/activities.vue",
-    "chunkName": "pages/activities"
+    "component": "D:\\\\Work\\\\Alt-soft\\\\SPBARANnuxt\\\\pages\\\\activities.vue",
+    "chunkName": "pages/activities",
+    "_name": "_bf4557a4"
   },
   {
     "name": "contacts",
     "path": "/contacts",
-    "component": "/Users/anastasia/IdeaProjects/SPBARANnuxt/pages/contacts.vue",
-    "chunkName": "pages/contacts"
+    "component": "D:\\\\Work\\\\Alt-soft\\\\SPBARANnuxt\\\\pages\\\\contacts.vue",
+    "chunkName": "pages/contacts",
+    "_name": "_3877cbd4"
   },
   {
     "name": "exb",
     "path": "/exb",
-    "component": "/Users/anastasia/IdeaProjects/SPBARANnuxt/pages/exb.vue",
-    "chunkName": "pages/exb"
+    "component": "D:\\\\Work\\\\Alt-soft\\\\SPBARANnuxt\\\\pages\\\\exb.vue",
+    "chunkName": "pages/exb",
+    "_name": "_3eb5e51e"
   },
   {
     "name": "exhibition",
     "path": "/exhibition",
-    "component": "/Users/anastasia/IdeaProjects/SPBARANnuxt/pages/exhibition.vue",
-    "chunkName": "pages/exhibition"
+    "component": "D:\\\\Work\\\\Alt-soft\\\\SPBARANnuxt\\\\pages\\\\exhibition.vue",
+    "chunkName": "pages/exhibition",
+    "_name": "_574d6d10"
   },
   {
     "name": "funds",
     "path": "/funds",
-    "component": "/Users/anastasia/IdeaProjects/SPBARANnuxt/pages/funds.vue",
-    "chunkName": "pages/funds"
+    "component": "D:\\\\Work\\\\Alt-soft\\\\SPBARANnuxt\\\\pages\\\\funds.vue",
+    "chunkName": "pages/funds",
+    "_name": "_c7cf8fc6"
   },
   {
     "name": "inventory",
     "path": "/inventory",
-    "component": "/Users/anastasia/IdeaProjects/SPBARANnuxt/pages/inventory.vue",
-    "chunkName": "pages/inventory"
+    "component": "D:\\\\Work\\\\Alt-soft\\\\SPBARANnuxt\\\\pages\\\\inventory.vue",
+    "chunkName": "pages/inventory",
+    "_name": "_23f3f0ab"
   },
   {
     "name": "news",
     "path": "/news",
-    "component": "/Users/anastasia/IdeaProjects/SPBARANnuxt/pages/news.vue",
-    "chunkName": "pages/news"
+    "component": "D:\\\\Work\\\\Alt-soft\\\\SPBARANnuxt\\\\pages\\\\news.vue",
+    "chunkName": "pages/news",
+    "_name": "_795c52d4"
   },
   {
     "name": "publications",
     "path": "/publications",
-    "component": "/Users/anastasia/IdeaProjects/SPBARANnuxt/pages/publications.vue",
-    "chunkName": "pages/publications"
+    "component": "D:\\\\Work\\\\Alt-soft\\\\SPBARANnuxt\\\\pages\\\\publications.vue",
+    "chunkName": "pages/publications",
+    "_name": "_0636d8c8"
   },
   {
     "name": "register",
     "path": "/register",
-    "component": "/Users/anastasia/IdeaProjects/SPBARANnuxt/pages/register.vue",
-    "chunkName": "pages/register"
+    "component": "D:\\\\Work\\\\Alt-soft\\\\SPBARANnuxt\\\\pages\\\\register.vue",
+    "chunkName": "pages/register",
+    "_name": "_f5121bb8"
   },
   {
     "name": "services",
     "path": "/services",
-    "component": "/Users/anastasia/IdeaProjects/SPBARANnuxt/pages/services.vue",
-    "chunkName": "pages/services"
+    "component": "D:\\\\Work\\\\Alt-soft\\\\SPBARANnuxt\\\\pages\\\\services.vue",
+    "chunkName": "pages/services",
+    "_name": "_01c27e5f"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "/Users/anastasia/IdeaProjects/SPBARANnuxt/pages/index.vue",
-    "chunkName": "pages/index"
+    "component": "D:\\\\Work\\\\Alt-soft\\\\SPBARANnuxt\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_72ba48a1"
   }
 ]

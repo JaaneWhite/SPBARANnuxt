@@ -8,12 +8,12 @@
         <b-row class="page-title">Иван Иванович Толстой (1880–1954): к 140-летию со дня рождения</b-row>
         <b-row class="exhibition-body">
           <b-col cols="12" xl="4" class="exhibition-picture">
-            <div class="exhibition-picture-image-block">
-              <b-img v-img :src="mainimgsrc" class="exhibition-image-main"></b-img>
-            </div>
-            <div class="exhibition-picture-text-block">
-              <row class="exhibition-picture-text-block-counter">1 из 12</row>
-              <row><p>Иван Иванович Толстой (1858–1916) — граф, археолог, нумизмат, государственный и общественный деятель;
+            <b-row class="exhibition-image-block">
+                <b-img v-img :src="mainimgsrc" class="exhibition-image-main"></b-img>
+            </b-row>
+            <b-row class="exhibition-picture-text-block">
+              <div class="exhibition-picture-text-block-counter">1 из 12</div>
+              <div><p>Иван Иванович Толстой (1858–1916) — граф, археолог, нумизмат, государственный и общественный деятель;
                 почетный член Императорской академии наук (13.12.1897).
                 Выпускник юридического факультета Петербургского университета (1880).
                 Член Императорской археологической комиссии (1886).
@@ -22,8 +22,8 @@
                 Императорского Русского археологического общества. Министр народного просвещения (1905–1906). Городской голова
                 Санкт-Петербурга (1913–1916).</p>
                 <p>СПбФ АРАН. Ф. 847. Оп. 1. Д. 48. Л. 7.</p>
-              </row>
-            </div>
+              </div>
+            </b-row>
           </b-col>
           <b-col cols="12" xl="1" class="exhibition-slider">
             <b-button class="slider-arrow-button"><b-img src="~assets/img/arrow up.png"></b-img> </b-button>

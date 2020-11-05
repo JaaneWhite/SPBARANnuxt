@@ -1,7 +1,7 @@
 <template>
   <b-col cols="2">
     <b-card class="inv-card">
-      <b-card-img v-img src="~assets/img/tolstoy.png" top class="inv-image">
+      <b-card-img v-img src="~assets/img/tolstoy.png" top class="inv-card-image">
       </b-card-img>
       <b-card-text>1</b-card-text>
 

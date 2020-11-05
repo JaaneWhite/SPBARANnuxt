@@ -3,18 +3,18 @@ import Router from 'vue-router'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _7e8f2163 = () => interopDefault(import('../pages/about.vue' /* webpackChunkName: "pages/about" */))
-const _2626bd07 = () => interopDefault(import('../pages/activities.vue' /* webpackChunkName: "pages/activities" */))
-const _230796ed = () => interopDefault(import('../pages/contacts.vue' /* webpackChunkName: "pages/contacts" */))
-const _09d06336 = () => interopDefault(import('../pages/exb.vue' /* webpackChunkName: "pages/exb" */))
-const _45d2542e = () => interopDefault(import('../pages/exhibition.vue' /* webpackChunkName: "pages/exhibition" */))
-const _70b628b8 = () => interopDefault(import('../pages/funds.vue' /* webpackChunkName: "pages/funds" */))
-const _e944ee9c = () => interopDefault(import('../pages/inventory.vue' /* webpackChunkName: "pages/inventory" */))
-const _4937926d = () => interopDefault(import('../pages/news.vue' /* webpackChunkName: "pages/news" */))
-const _3f496f61 = () => interopDefault(import('../pages/publications.vue' /* webpackChunkName: "pages/publications" */))
-const _7006bd3d = () => interopDefault(import('../pages/register.vue' /* webpackChunkName: "pages/register" */))
-const _275b6d10 = () => interopDefault(import('../pages/services.vue' /* webpackChunkName: "pages/services" */))
-const _c37207b0 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
+const _53026ddc = () => interopDefault(import('..\\pages\\about.vue' /* webpackChunkName: "pages/about" */))
+const _bf4557a4 = () => interopDefault(import('..\\pages\\activities.vue' /* webpackChunkName: "pages/activities" */))
+const _3877cbd4 = () => interopDefault(import('..\\pages\\contacts.vue' /* webpackChunkName: "pages/contacts" */))
+const _3eb5e51e = () => interopDefault(import('..\\pages\\exb.vue' /* webpackChunkName: "pages/exb" */))
+const _574d6d10 = () => interopDefault(import('..\\pages\\exhibition.vue' /* webpackChunkName: "pages/exhibition" */))
+const _c7cf8fc6 = () => interopDefault(import('..\\pages\\funds.vue' /* webpackChunkName: "pages/funds" */))
+const _23f3f0ab = () => interopDefault(import('..\\pages\\inventory.vue' /* webpackChunkName: "pages/inventory" */))
+const _795c52d4 = () => interopDefault(import('..\\pages\\news.vue' /* webpackChunkName: "pages/news" */))
+const _0636d8c8 = () => interopDefault(import('..\\pages\\publications.vue' /* webpackChunkName: "pages/publications" */))
+const _f5121bb8 = () => interopDefault(import('..\\pages\\register.vue' /* webpackChunkName: "pages/register" */))
+const _01c27e5f = () => interopDefault(import('..\\pages\\services.vue' /* webpackChunkName: "pages/services" */))
+const _72ba48a1 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
 // TODO: remove in Nuxt 3
 const emptyFn = () => {}
@@ -34,51 +34,51 @@ export const routerOptions = {
 
   routes: [{
     path: "/about",
-    component: _7e8f2163,
+    component: _53026ddc,
     name: "about"
   }, {
     path: "/activities",
-    component: _2626bd07,
+    component: _bf4557a4,
     name: "activities"
   }, {
     path: "/contacts",
-    component: _230796ed,
+    component: _3877cbd4,
     name: "contacts"
   }, {
     path: "/exb",
-    component: _09d06336,
+    component: _3eb5e51e,
     name: "exb"
   }, {
     path: "/exhibition",
-    component: _45d2542e,
+    component: _574d6d10,
     name: "exhibition"
   }, {
     path: "/funds",
-    component: _70b628b8,
+    component: _c7cf8fc6,
     name: "funds"
   }, {
     path: "/inventory",
-    component: _e944ee9c,
+    component: _23f3f0ab,
     name: "inventory"
   }, {
     path: "/news",
-    component: _4937926d,
+    component: _795c52d4,
     name: "news"
   }, {
     path: "/publications",
-    component: _3f496f61,
+    component: _0636d8c8,
     name: "publications"
   }, {
     path: "/register",
-    component: _7006bd3d,
+    component: _f5121bb8,
     name: "register"
   }, {
     path: "/services",
-    component: _275b6d10,
+    component: _01c27e5f,
     name: "services"
   }, {
     path: "/",
-    component: _c37207b0,
+    component: _72ba48a1,
     name: "index"
   }],
 

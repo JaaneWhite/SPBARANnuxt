@@ -5,30 +5,6 @@
   "LazyAddressBlock": {
     "description": "Auto imported from components/AddressBlock.vue"
   },
-  "InventoryImgCard": {
-    "description": "Auto imported from components/InventoryImgCard.vue"
-  },
-  "LazyInventoryImgCard": {
-    "description": "Auto imported from components/InventoryImgCard.vue"
-  },
-  "InventoryItem": {
-    "description": "Auto imported from components/InventoryItem.vue"
-  },
-  "LazyInventoryItem": {
-    "description": "Auto imported from components/InventoryItem.vue"
-  },
-  "PhoneBlock": {
-    "description": "Auto imported from components/PhoneBlock.vue"
-  },
-  "LazyPhoneBlock": {
-    "description": "Auto imported from components/PhoneBlock.vue"
-  },
-  "TransportBlock": {
-    "description": "Auto imported from components/TransportBlock.vue"
-  },
-  "LazyTransportBlock": {
-    "description": "Auto imported from components/TransportBlock.vue"
-  },
   "ExbBlock": {
     "description": "Auto imported from components/exbBlock.vue"
   },
@@ -47,6 +23,18 @@
   "LazyHeaderComponent": {
     "description": "Auto imported from components/headerComponent.vue"
   },
+  "InventoryImgCard": {
+    "description": "Auto imported from components/InventoryImgCard.vue"
+  },
+  "LazyInventoryImgCard": {
+    "description": "Auto imported from components/InventoryImgCard.vue"
+  },
+  "InventoryItem": {
+    "description": "Auto imported from components/InventoryItem.vue"
+  },
+  "LazyInventoryItem": {
+    "description": "Auto imported from components/InventoryItem.vue"
+  },
   "MainMenu": {
     "description": "Auto imported from components/mainMenu.vue"
   },
@@ -64,5 +52,17 @@
   },
   "LazyPagination": {
     "description": "Auto imported from components/pagination.vue"
+  },
+  "PhoneBlock": {
+    "description": "Auto imported from components/PhoneBlock.vue"
+  },
+  "LazyPhoneBlock": {
+    "description": "Auto imported from components/PhoneBlock.vue"
+  },
+  "TransportBlock": {
+    "description": "Auto imported from components/TransportBlock.vue"
+  },
+  "LazyTransportBlock": {
+    "description": "Auto imported from components/TransportBlock.vue"
   }
 }
