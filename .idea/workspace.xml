@@ -19,11 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75899b17-940d-4415-8aae-6d14808e9d1b" name="Default Changelist" comment="&#10;+ подсветка активного пункта меню (пока не работает для dropdown)">
+    <list default="true" id="75899b17-940d-4415-8aae-6d14808e9d1b" name="Default Changelist" comment="переделываем меню на navbar">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/mainMenu.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/mainMenu.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/exhibition.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/exhibition.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +129,7 @@
       <workItem from="1603869065870" duration="255000" />
       <workItem from="1603870738655" duration="10312000" />
       <workItem from="1603965575462" duration="40690000" />
-      <workItem from="1604301695788" duration="25525000" />
+      <workItem from="1604301695788" duration="27000000" />
     </task>
     <task id="LOCAL-00001" summary="+ страница &quot;Об архиве&quot;&#10;Начала делать страницу &quot;Публикации&quot;">
       <created>1603379444886</created>
@@ -181,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604391336195</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="переделываем меню на navbar">
+      <created>1604406452145</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1604406452145</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,7 +214,8 @@
     <MESSAGE value="&#10;+ страница register.vue" />
     <MESSAGE value="&#10;+ страницы описей&#10;Для пк-версии собраны все страницы, для которых был дизайн" />
     <MESSAGE value="&#10;+ подсветка активного пункта меню (пока не работает для dropdown)" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;+ подсветка активного пункта меню (пока не работает для dropdown)" />
+    <MESSAGE value="переделываем меню на navbar" />
+    <option name="LAST_COMMIT_MESSAGE" value="переделываем меню на navbar" />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="83" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603228725155">
@@ -219,42 +226,42 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603710525420" />
-    <state width="1398" height="204" key="GridCell.Tab.0.bottom" timestamp="1604389532517">
-      <screen x="0" y="23" width="1440" height="797" />
+    <state width="1398" height="204" key="GridCell.Tab.0.bottom" timestamp="1604436692521">
+      <screen x="0" y="23" width="1440" height="807" />
     </state>
     <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.0.1440.820@0.0.1440.820" timestamp="1603954303880" />
     <state width="1877" height="170" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603877531451" />
     <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1604389532517" />
     <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.803@0.23.1440.803" timestamp="1604068576307" />
     <state width="1398" height="254" key="GridCell.Tab.0.bottom/0.23.1440.805@0.23.1440.805" timestamp="1604073837011" />
-    <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.807@0.23.1440.807" timestamp="1603286769623" />
-    <state width="1398" height="204" key="GridCell.Tab.0.center" timestamp="1604389532513">
-      <screen x="0" y="23" width="1440" height="797" />
+    <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.807@0.23.1440.807" timestamp="1604436692521" />
+    <state width="1398" height="204" key="GridCell.Tab.0.center" timestamp="1604436692520">
+      <screen x="0" y="23" width="1440" height="807" />
     </state>
     <state width="1398" height="204" key="GridCell.Tab.0.center/0.0.1440.820@0.0.1440.820" timestamp="1603954303877" />
     <state width="1877" height="170" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603877531451" />
     <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1604389532513" />
     <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.803@0.23.1440.803" timestamp="1604068576305" />
     <state width="1398" height="254" key="GridCell.Tab.0.center/0.23.1440.805@0.23.1440.805" timestamp="1604073837010" />
-    <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.807@0.23.1440.807" timestamp="1603286769622" />
-    <state width="1398" height="204" key="GridCell.Tab.0.left" timestamp="1604389532513">
-      <screen x="0" y="23" width="1440" height="797" />
+    <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.807@0.23.1440.807" timestamp="1604436692520" />
+    <state width="1398" height="204" key="GridCell.Tab.0.left" timestamp="1604436692519">
+      <screen x="0" y="23" width="1440" height="807" />
     </state>
     <state width="1398" height="204" key="GridCell.Tab.0.left/0.0.1440.820@0.0.1440.820" timestamp="1603954303876" />
     <state width="1877" height="170" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603877531451" />
     <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1604389532512" />
     <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.803@0.23.1440.803" timestamp="1604068576301" />
     <state width="1398" height="254" key="GridCell.Tab.0.left/0.23.1440.805@0.23.1440.805" timestamp="1604073837007" />
-    <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.807@0.23.1440.807" timestamp="1603286769621" />
-    <state width="1398" height="204" key="GridCell.Tab.0.right" timestamp="1604389532515">
-      <screen x="0" y="23" width="1440" height="797" />
+    <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.807@0.23.1440.807" timestamp="1604436692519" />
+    <state width="1398" height="204" key="GridCell.Tab.0.right" timestamp="1604436692520">
+      <screen x="0" y="23" width="1440" height="807" />
     </state>
     <state width="1398" height="204" key="GridCell.Tab.0.right/0.0.1440.820@0.0.1440.820" timestamp="1603954303879" />
     <state width="1877" height="170" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603877531451" />
     <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1604389532515" />
     <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.803@0.23.1440.803" timestamp="1604068576306" />
     <state width="1398" height="254" key="GridCell.Tab.0.right/0.23.1440.805@0.23.1440.805" timestamp="1604073837011" />
-    <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.807@0.23.1440.807" timestamp="1603286769623" />
+    <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.807@0.23.1440.807" timestamp="1604436692520" />
     <state width="1398" height="254" key="GridCell.Tab.1.bottom" timestamp="1604073837014">
       <screen x="0" y="23" width="1440" height="805" />
     </state>
@@ -307,11 +314,12 @@
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="0" y="23" width="1440" height="797" key="SettingsEditor/0.23.1440.797@0.23.1440.797" timestamp="1604392107488" />
-    <state x="414" y="217" key="Vcs.Push.Dialog.v2" timestamp="1604391342097">
-      <screen x="0" y="23" width="1440" height="797" />
+    <state x="414" y="219" key="Vcs.Push.Dialog.v2" timestamp="1604406524836">
+      <screen x="0" y="23" width="1440" height="805" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603714340662" />
     <state x="414" y="217" key="Vcs.Push.Dialog.v2/0.23.1440.797@0.23.1440.797" timestamp="1604391342097" />
+    <state x="414" y="219" key="Vcs.Push.Dialog.v2/0.23.1440.805@0.23.1440.805" timestamp="1604406524836" />
     <state width="600" height="285" key="javadoc.popup" timestamp="1603977811935">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
