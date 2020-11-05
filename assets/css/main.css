@@ -139,6 +139,10 @@ header {
 .navbar-nav {
     width: 100%;
 }
+.navbar {
+    justify-content: flex-end;
+}
+
 .nav-item {
     color: #1a475a;
     background-color: transparent;

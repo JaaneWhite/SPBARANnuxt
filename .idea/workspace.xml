@@ -19,20 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75899b17-940d-4415-8aae-6d14808e9d1b" name="Default Changelist" comment="переделываем меню на navbar">
-      <change afterPath="$PROJECT_DIR$/assets/img/checkmark.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/eye.png" afterDir="false" />
+    <list default="true" id="75899b17-940d-4415-8aae-6d14808e9d1b" name="Default Changelist" comment="добавлены hover к картинкам на страницах отдельной выставки и описи">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/components/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/routes.json" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/routes.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/vetur/tags.json" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/vetur/tags.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/InventoryImgCard.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/InventoryImgCard.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/headerComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/headerComponent.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/exhibition.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/exhibition.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/mainMenu.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/mainMenu.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604406452145</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="добавлены hover к картинкам на страницах отдельной выставки и описи">
+      <created>1604570029592</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1604570029592</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,7 +223,8 @@
     <MESSAGE value="&#10;+ страницы описей&#10;Для пк-версии собраны все страницы, для которых был дизайн" />
     <MESSAGE value="&#10;+ подсветка активного пункта меню (пока не работает для dropdown)" />
     <MESSAGE value="переделываем меню на navbar" />
-    <option name="LAST_COMMIT_MESSAGE" value="переделываем меню на navbar" />
+    <MESSAGE value="добавлены hover к картинкам на страницах отдельной выставки и описи" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавлены hover к картинкам на страницах отдельной выставки и описи" />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="83" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603228725155">

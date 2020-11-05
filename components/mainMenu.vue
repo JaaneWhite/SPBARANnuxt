@@ -3,7 +3,7 @@
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
     <b-collapse id="nav-collapse" is-nav>
-      <b-navbar-nav fill>
+      <b-navbar-nav fill align="right">
         <b-nav-item to="/" class="menu-button-top">
           <b-img src="~/assets/SVG/home.svg" class="home-logo" alt="Home"></b-img>
         </b-nav-item>

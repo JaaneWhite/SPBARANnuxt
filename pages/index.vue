@@ -23,9 +23,9 @@
            <b-container class="contact-row-inner">
             <b-row class="address-title">Адрес архива</b-row>
             <b-row class="info-row">
-              <b-col cols="3"><address-block /></b-col>
-              <b-col cols="6"><transport-block/></b-col>
-              <b-col cols="3"><phone-block/></b-col>
+              <b-col cols="12" xl="3"><address-block /></b-col>
+              <b-col cols="12" xl="3"><transport-block/></b-col>
+              <b-col cols="12" xl="3"><phone-block/></b-col>
            </b-row>
            </b-container>
 
